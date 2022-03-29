@@ -19,7 +19,7 @@ class Products extends Migration
                 'constraint' => 200
             ],
             'price' => [
-                'type' => 'VARCHAR',
+                'type' => 'INT',
                 'constraint' => 11
             ],
         ]);

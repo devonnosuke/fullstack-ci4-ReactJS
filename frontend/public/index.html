@@ -24,11 +24,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>React App | With CI4</title>
+    <style>
+      .rotate {
+        animation: rotation 4.2s infinite linear;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 18%;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <img src="logo512.png" class="rotate">
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

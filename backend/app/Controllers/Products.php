@@ -52,9 +52,11 @@ class Products extends ResourceController
             'price' => 'required'
         ];
 
+        $price = $this->request->getVar('price');
+
         $data = [
             'title' => $this->request->getVar('title'),
-            'price' => $this->request->getVar('price')
+            'price' => preg_replace("/[^0-9]/", "", $price)
         ];
 
         if (!$this->validate($rules)) return $this->fail($this->validator->getErrors());
@@ -86,9 +88,11 @@ class Products extends ResourceController
             'price' => 'required'
         ];
 
+        $price = $this->request->getVar('price');
+
         $data = [
             'title' => $this->request->getVar('title'),
-            'price' => $this->request->getVar('price')
+            'price' => preg_replace("/[^0-9]/", "", $price)
         ];
 
         if (!$this->validate($rules)) return $this->fail($this->validator->getErrors());
