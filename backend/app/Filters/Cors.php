@@ -20,7 +20,7 @@ class Cors implements FilterInterface
      *
      * @param RequestInterface $request
      * @param array|null       $arguments
-     *
+     *eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsImVtYWlsIjoibXltYWlsQGdtYWlsLmNvbSJ9.-rJUM3YNEi4kE6TOLeGWNP8CBAZezWWsUZCLuyfJNx4
      * @return mixed
      */
     public function before(RequestInterface $request, $arguments = null)
