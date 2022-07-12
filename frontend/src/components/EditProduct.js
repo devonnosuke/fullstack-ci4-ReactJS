@@ -11,7 +11,7 @@ const EditProduct = () => {
 
     const updateProduct = async (e) =>{
       e.preventDefault();
-      await axios.put(`http://localhost:8080/products/${id}`,{
+      await axios.put(`http://192.168.1.6/fullstack/backend/public/products/${id}`,{
         'title':title,
         'price':price
       });
@@ -23,7 +23,7 @@ const EditProduct = () => {
     },[]);
 
     const getProductById = async () => {
-        const response = await axios.get(`http://localhost:8080/products/${id}`);
+        const response = await axios.get(`http://192.168.1.6/fullstack/backend/public/products/${id}`);
         setTitle(response.data.title);
         setPrice(response.data.price);
     }

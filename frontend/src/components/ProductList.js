@@ -10,7 +10,7 @@ function ProductList() {
     },[]);
 
     const getProducts = async () => {
-        const products = await axios.get('http://localhost:8080/products');
+        const products = await axios.get('http://192.168.1.6/fullstack/backend/public/products');
         // console.log(products.data)
         setProducts(products.data);
     }
@@ -35,7 +35,7 @@ function ProductList() {
 		}
 
     const deleteProduct = async (id)=>{
-      await axios.delete(`http://localhost:8080/products/${id}`);
+      await axios.delete(`http://192.168.1.6/fullstack/backend/public/products/${id}`);
       getProducts();
     }
 

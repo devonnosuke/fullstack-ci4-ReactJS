@@ -1,0 +1,87 @@
+ERROR - 2022-07-12 10:27:29 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:27:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(25): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-12 10:27:39 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:27:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(25): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-12 10:27:47 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:27:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(25): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-12 10:29:43 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:29:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(25): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-12 10:30:25 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:30:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(64): CodeIgniter\BaseModel->save(Array)
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#8 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-07-12 10:30:59 --> Error connecting to the database: Unknown database 'fullstack_db'
+CRITICAL - 2022-07-12 10:30:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fullstack_db'
+#0 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xampp\htdocs\fullstack\backend\app\Controllers\Products.php(25): CodeIgniter\BaseModel->findAll()
+#5 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\fullstack\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\fullstack\backend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-12 10:32:30 --> Error connecting to the database: Unknown database 'fullstack_db'

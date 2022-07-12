@@ -10,7 +10,7 @@ const AddProduct = () => {
 
     const saveProduct = async (e) =>{
       e.preventDefault();
-      await axios.post('http://localhost:8080/products',{
+      await axios.post('http://192.168.1.6/fullstack/backend/public/products',{
         'title':title,
         'price':price
       });
